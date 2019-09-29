@@ -98,7 +98,7 @@ def all_holidays_with_bbq(holiday_hash)
        cookout << holiday if supply.include?("BBQ")
     }
   } 
-  events_with_bbq
+  cookout
 end
 
 
