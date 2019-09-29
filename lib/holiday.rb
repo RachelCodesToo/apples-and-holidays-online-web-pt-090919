@@ -94,7 +94,7 @@ def all_holidays_with_bbq(holiday_hash)
   # include the string "BBQ"
   cookout = []
   holiday_hash.each {|season, celebration|
-    holi.each {|holiday, supply|
+    celebration.each {|holiday, supply|
        cookout << holiday if supply.include?("BBQ")
     }
   } 
